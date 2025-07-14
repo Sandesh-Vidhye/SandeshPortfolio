@@ -1,8 +1,12 @@
+*{
+  font-size: 18px;
+}
+
 body {
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
-  background-color: #0f172a;
-  color: #f1f5f9;
+  background-color: #003262;
+  color: #ffffff;
 }
 
 .navbar {
@@ -74,11 +78,12 @@ body {
 .tools {
   margin-top: 25px;
   font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .post {
   margin-bottom: 30px;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 20px;
   
 }
@@ -101,14 +106,8 @@ body {
 
 .status{
     line-height: 30px;
+    font-size: 20px;
 }
-
-
-
-
-
-
-
 
 /* =============================================== */
 /* Footer */
