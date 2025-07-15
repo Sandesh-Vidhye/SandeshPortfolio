@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
-  background-color: #003262;
+  background-color: #32174D;
   color: #ffffff;
 }
 
@@ -16,12 +16,32 @@ body {
   font-weight: bold;
   align-items: center;
 }
-.logo{
-    font-size: 40px;
+
+.logo a {
+  font-size:36px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding-left: 333px;
 }
+
+.emoji {
+  font-size: 30px; 
+  vertical-align: middle; 
+}
+
+/* .back{
+  font-size: 20px;
+  color:rgb(145, 119, 119);
+  padding: none;
+
+  
+} */
 
 /* ======================================================== */
 /* Darkmode */
+
+
 
 
 
@@ -50,6 +70,7 @@ body {
   align-items: center;
   gap: 10px;
   color: white;
+  padding: auto;
 }
 
 .intro p {
@@ -63,6 +84,7 @@ body {
   display: flex;
   align-items: center;
   gap: 15px;
+  padding-right: 330px;
 }
 
 .social a {
@@ -109,6 +131,61 @@ body {
     font-size: 20px;
 }
 
+
+/* ============================================= */
+/* Project */
+.project-card {
+    color: #eee;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-2px);
+}
+
+.project-card h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.project-card .tagline {
+    color: #aaa;
+    margin-bottom: 0.5rem;
+}
+
+.project-card ul.features {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0.5rem;
+}
+
+.project-card ul.features li {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+
+/* =============================================== */
+/* interest */
+.interest-list li strong {
+  font-size: 22px;
+}
+
+.interest-list li p {
+  font-size: 22px;
+  margin-top: 5px;
+}
+
+
+
+
+
+/* =============================================== */
+/* About */
+
+
+
 /* =============================================== */
 /* Footer */
 .footer {
@@ -126,4 +203,7 @@ body {
   margin-left: 15px;
   font-size: 1.3rem;
   transition: color 0.3s ease;
+}
+.footer-icons a:hover {
+  color: #f43f5e;
 }
