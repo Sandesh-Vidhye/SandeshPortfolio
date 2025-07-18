@@ -5,8 +5,9 @@
 body {
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
-  background-color: #32174D;
+  /* background-color: #32174D; */
   color: #ffffff;
+  background-color: #0f172a;
 }
 
 .navbar {
@@ -30,16 +31,101 @@ body {
   vertical-align: middle; 
 }
 
-/* .back{
-  font-size: 20px;
-  color:rgb(145, 119, 119);
-  padding: none;
 
-  
-} */
 
 /* ======================================================== */
 /* Darkmode */
+/* ============================= */
+/* Dark Mode (default) */
+body {
+  /* background-color: #0f172a; */
+  background-color: #1e293b;
+  color: #f1f5f9;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar {
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
+.footer {
+  background-color: #1e293b;
+  color: #f1f5f9;
+}
+
+.social a i {
+  color: #f1f5f9;
+}
+
+/* Divider */
+.divider,
+.divider1 {
+  border: none;
+  border-top: 2px solid #e11d48;
+  margin: 1rem 0;
+}
+
+/* ============================= */
+/* Light Mode */
+
+
+body.light {
+  background-color: #f9fafb;
+  color: #1e293b;
+}
+
+body.light .intro h1,
+body.light .intro p {
+  color: #1e293b;
+}
+
+body.light .post {
+  color: #1e293b;
+}
+
+body.light .post strong {
+  color: #000;
+}
+
+body.light .post li:hover {
+  color: #e11d48;
+}
+
+body.light .footer {
+  color: #060606;
+  background-color: #f6f7f9;
+}
+body.light .navbar {
+  background-color: #f6f7f9;
+  color: #060606;
+}
+body.light i,
+body.light .navbar a,
+body.light .logo a {
+  color: #060606 !important;
+}
+body.light .navbar a:hover {
+  color: #e11d48;
+}
+
+
+
+body.light .footer-icons a {
+  color: #060606;
+}
+
+body.light .footer-icons a:hover {
+  color: #e11d48;
+}
+
+body.light .project-card {
+  background-color: #fefefe;
+  color: #1e293b;
+}
+
+body.light .project-card .tagline {
+  color: #475569;
+}
 
 
 
@@ -138,6 +224,18 @@ body {
     color: #eee;
     padding: 1.5rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding-block: 1.5rem;
+}
+
+.project-card {
+  /* background-color: #1e293b;         Dark card background */
+  color: #f1f5f9;                   
+  padding: 20px;                    
+  margin-bottom: 25px;               
+  border-radius: 12px;            
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
+  /* border: 1px solid #334155;         */
+  transition: transform 0.2s ease;   
 }
 
 .project-card:hover {
@@ -164,6 +262,8 @@ body {
     margin-bottom: 0.5rem;
     font-weight: 500;
 }
+
+
 
 
 /* =============================================== */
